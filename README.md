@@ -8,6 +8,17 @@ In addition to demonstrating the Relaxation method, I also show how to use a neu
 
 I have also included a ChatGPT translation of the Mathematica file that Yuri released. At time of writing, I have not verified it line-by-line to be an exact replica of Yuri's, or that it even runs. Nonetheless, it might be useful for those unfamiliar with Mathematica.
 
+### Instalation
+
+To use this repository, you will need a virtual environment with the neccessary python packages installed. I have included a conda environment.yml file that will aid that installation:
+
+```bash
+#remember to replace $ENV with your env name
+conda create --name $ENV --file environment.yml
+conda activate $ENV
+```
+
+
 ### Conclusion
 
 While obviously a problem as simple as this doesn't really require a PINN solution, they are being investigated for more complicated problems or more generally to constrain functions to arbitrary constraints that can be phrased as differential equations. I encourage the reader to play around with the hyperparameters of the Network, as you'll find slight deviations can cause the PINN to no longer converge.
