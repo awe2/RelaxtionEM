@@ -1,0 +1,13 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: win-64
+cpuonly
+ipykernel
+ipython
+matplotlib
+numpy
+pip
+python=3.12.8
+pytorch=2.5.1=py3.12_cpu_0
+pytorch-mutex=1.0=cpu
+tqdm
