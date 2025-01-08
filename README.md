@@ -17,11 +17,9 @@ To use this repository, you will need a virtual environment with the neccessary 
 conda create --name $ENV --file environment.yml
 conda activate $ENV
 ```
-
-
 ### Conclusion
 
-While obviously a problem as simple as this doesn't really require a PINN solution, they are being investigated for more complicated problems or more generally to constrain functions to arbitrary constraints that can be phrased as differential equations. I encourage the reader to play around with the hyperparameters of the Network, as you'll find slight deviations can cause the PINN to no longer converge.
+While obviously a problem as simple as this doesn't really require a PINN solution, and the error + computational efficiency of the PINN compared to the Relaxtion method is very poor, PINNs are being investigated for more complicated problems or more generally to learn functions with arbitrary constraints. I encourage the reader to play around with the hyperparameters of the Network, as you'll find slight deviations can cause the PINN to no longer converge.
 
 ### Author:
 
