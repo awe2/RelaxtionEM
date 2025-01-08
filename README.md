@@ -8,7 +8,7 @@ In addition to demonstrating the Relaxation method, I also show how to use a neu
 
 I have also included a ChatGPT translation of the Mathematica file that Yuri released. At time of writing, I have not verified it line-by-line to be an exact replica of Yuri's, or that it even runs. Nonetheless, it might be useful for those unfamiliar with Mathematica.
 
-### Instalation
+### Installation
 
 To use this repository, you will need a virtual environment with the neccessary python packages installed. I have included a conda environment.yml file that will aid that installation:
 
