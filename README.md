@@ -20,6 +20,13 @@ conda activate $ENV
 
 I haven't actually evaluated that this installation works to get all neccessary dependencies. The dependencies are numpy matplotlib jupyter and PyTorch otherwise.
 
+### Visualization
+
+#### Relaxation Method
+![Relaxation Demo](animations/relaxation_evolution.gif)
+#### PINN Method
+![PINN Demo](animations/PINN_evolution.gif)
+
 ### Conclusion
 
 While obviously a problem as simple as this doesn't really require a PINN solution, and the error + computational efficiency of the PINN compared to the Relaxtion method is very poor, PINNs are being investigated for more complicated problems or more generally to learn functions with arbitrary constraints. I encourage the reader to play around with the hyperparameters of the Network, as you'll find slight deviations can cause the PINN to no longer converge.
